@@ -17,7 +17,7 @@ COPY server.js ./
 RUN npm install
 
 # Expose port cho Railway
-EXPOSE 3000
+EXPOSE 11434
 
 # Start server
 CMD ["node", "server.js"]
